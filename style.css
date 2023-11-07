@@ -63,4 +63,20 @@ body{
         color: white;
     }
 
+    .cajaGet{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        height: 10%;
+        background-color: blueviolet;
+        border-radius: 10px;
+        text-align: center;
+        padding: 25px;
+        margin: 0 auto;
+     
+    }
+
+    .cajaGet{
+        color: white;
+    }
 
