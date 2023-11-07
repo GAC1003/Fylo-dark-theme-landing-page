@@ -55,6 +55,12 @@ body{
     .cont1{
         padding: 100px 100px 0px 0px;
         
+    }   
+
+    .cont2{
+        display: grid;
+        grid-template-columns: 25fr 25fr 25fr;
+        color: white;
     }
 
 
