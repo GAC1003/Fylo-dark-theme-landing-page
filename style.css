@@ -60,6 +60,30 @@ body{
         padding-bottom: 10px;
     }
 
+    .productos{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .produ1{
+        padding-left:10px ;
+        margin-right: 10px;
+        text-align: center;
+
+    }
+
+    .produ2{
+    margin-left:10px ;
+    margin-right: 10px;
+    text-align: center;
+    }
+
+
+
 
 
 
