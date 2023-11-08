@@ -16,8 +16,7 @@ body{
     #logo{
         display: inline;
         position: absolute;
-        margin-left: 45px;
-        
+        margin-left: 45px; 
     }
 
     .navi{
@@ -29,11 +28,37 @@ body{
         margin-top: 30px;
     }
 
+    .intro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .titu{
+        padding-left: 350px;
+        padding-right: 350px;
+        text-align: center;
+        color: white;
+    }
 
+    .subti{
+        padding-left: 320px;
+        padding-right: 320px;
+        text-align: center;
+        color: white;
+        
+    }
 
-
-
+    
+    .primbtn{
+        color: white;
+        background-color:#4FC4D4;
+        border-radius: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
 
 
