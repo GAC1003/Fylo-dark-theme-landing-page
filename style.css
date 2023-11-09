@@ -2,14 +2,15 @@
 body{
     display: flex;
     justify-content: center;
+    margin: 0px;
     
 }
 
-/* hsl(217, 28%, 15%)*/
+/* hsl(217, 28%, 15%)  hsl(218, 28%, 13%)*/
 
 
 .contenido{
-    background-color:  hsl(218, 28%, 13%);
+    background-color:  hsl(217, 28%, 15%);
     
     }
 
@@ -32,13 +33,26 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
+        
+       
     }
+
+
+    .fondo{
+        width: 100%;
+                
+         
+    }
+
+
 
     .titu{
         padding-left: 350px;
         padding-right: 350px;
         text-align: center;
         color: white;
+        
+     
     }
 
     .subti{
@@ -46,6 +60,8 @@ body{
         padding-right: 320px;
         text-align: center;
         color: white;
+     
+       
         
     }
 
@@ -58,9 +74,15 @@ body{
         padding-right: 40px;
         padding-top: 10px;
         padding-bottom: 10px;
+        z-index: 2;
     }
 
+
+
+   
+
     .productos{
+        
         color: white;
         display: flex;
         justify-content: center;
@@ -71,7 +93,7 @@ body{
     }
 
     .produ1{
-        margin-top: 70px;
+        margin-top: 40px;
         padding-left:90px ;
         padding-right:90px;
         margin-right: 10px;
@@ -80,7 +102,7 @@ body{
     }
 
     .produ2{
-        margin-top: 70px;
+        margin-top: 40px;
         padding-left:90px ;
         padding-right:90px;
         margin-right: 10px;
