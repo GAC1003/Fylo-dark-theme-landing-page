@@ -129,7 +129,7 @@ body{
         display: grid;
         grid-template-columns: 50fr 50fr;
         color: white;
-        padding-top: 15%;
+        padding-top: 10%;
     }
 
     .stay img{
@@ -146,9 +146,11 @@ body{
         display: grid;
         grid-template-columns: 10fr 10fr 10fr;
         color: white;
-        
-        
+        justify-items: center;
+        padding-left: 5%;
+        margin-top: 5%;
     }
+
     .cont2 img {
         border-radius: 100px;
         width: 10%;
@@ -159,9 +161,29 @@ body{
         width: 65%;
         height: 150px;
         background-color: hsl(219, 30%, 18%);
+        padding: 10px 30px ;
+
+        
+        
+    }
+
+    .conte2{
+        width: 65%;
+        height: 150px;
+        background-color: hsl(219, 30%, 18%);
         padding: 10px 20px;
-        margin-left: 20%;
-        margin-right: 20%;
+        
+        margin-left: -25%;
+        
+    }
+
+    .conte3{
+        width: 65%;
+        height: 150px;
+        background-color: hsl(219, 30%, 18%);
+        padding: 10px 20px;
+        
+        margin-left: -55%;
     }
 
     .cajaGet{
