@@ -11,6 +11,7 @@ body{
 
 .contenido{
     background-color:  hsl(217, 28%, 15%);
+    position: relative;
     
     }
 
@@ -33,13 +34,21 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
-        
+        position:absolute;
+        z-index: 2;
+       
+
        
     }
 
 
-    .fondo{
+    .fondito{
         width: 100%;
+        height: 200vh;
+        transform: scale(1.4);
+              
+        
+
                 
          
     }
