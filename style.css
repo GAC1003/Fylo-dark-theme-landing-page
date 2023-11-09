@@ -40,7 +40,7 @@ body{
 
     .fondo{
         width: 100%;
-                
+         overflow: hidden;       
          
     }
 
@@ -140,6 +140,8 @@ body{
         justify-items: center;
         padding-left: 5%;
         margin-top: 5%;
+        margin-bottom: 10%;
+        
     }
 
     .cont2 img {
@@ -175,26 +177,52 @@ body{
         padding: 10px 20px;
         
         margin-left: -55%;
+        
     }
 
     .cajaGet{
         display: flex;
         flex-direction: column;
-        width: 70%;
-        height: 10%;
+        width: 60%;
+        height: 5%;
         background-color: blueviolet;
         border-radius: 10px;
         text-align: center;
-        padding: 25px;
+        padding: 10px 0px 30px 0px ;
         margin: 0 auto;
-     
+
+        margin-bottom: 20px;
+        color: white;
+        /* Segun para poner lo encima de otro
+        position: relative;
+        z-index: 1; */
+        
     }
 
-    .cajaGet{
-        color: white;
+    .textcaja p{
+        padding: 0px 105px 0px 105px;
+    }
+
+    .cajaGet input{
+        height: 30%;
+        width: 60%;
+        border-radius: 20px;
+        margin-right: 20px;  
+    }
+
+    .cajaGet button{
+        height: 30%;
+        width: 20%;
+        border-radius: 20px;
+        margin-right: 20px;  
+        background-image: linear-gradient(to right,hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+        /* &:hover{  
+            background-color: hsl(180, 66%, 49%, 0.5) ;
+        }   */
     }
 
     footer{
+        
         background-color: burlywood;
     }
 
