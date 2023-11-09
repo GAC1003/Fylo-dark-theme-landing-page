@@ -94,6 +94,7 @@ body{
         display: grid;
         grid-template-columns: 50fr 50fr;
         color: white;
+        padding-top: 15%;
     }
 
     .stay img{
@@ -110,6 +111,10 @@ body{
         display: grid;
         grid-template-columns: 25fr 25fr 25fr;
         color: white;
+        
+    }
+    .cont2 img {
+        border-radius: 100px;
     }
 
     .cajaGet{
