@@ -112,9 +112,20 @@ body{
         grid-template-columns: 25fr 25fr 25fr;
         color: white;
         
+        
     }
     .cont2 img {
         border-radius: 100px;
+        width: 10%;
+        
+    }
+
+    .conte1{
+        width: 90%;
+        height: 150px;
+        background-color: rgb(156, 98, 27);
+        padding: 10px 20px;
+
     }
 
     .cajaGet{
