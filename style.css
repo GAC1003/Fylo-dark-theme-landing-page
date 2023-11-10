@@ -143,22 +143,27 @@ body{
         grid-template-columns: 50fr 50fr;
         color: white;
         padding-top: 10%;
-        font-family: 'Open Sans', sans-serif;
+        /* font-family: 'Open Sans', sans-serif; */
     }
-    /*par la fuente, aun es de prueba*/
-    .stay h1{
-        font-size: 700px;
-    }
+   
 
     .stay img{
         padding: 0px 50px 0px 100px ;
         
     }
 
-    .cont1{
+    .contInfo{
         padding: 100px 100px 0px 0px;
         
     }   
+
+    .comentarios{
+        background-color: aqua;
+        /* margin-right: 205px;
+        padding-right: 50px;
+         */
+       
+    }
 
     .cont2{
         display: grid;
@@ -173,60 +178,31 @@ body{
 
     .cont2 img {
         border-radius: 100px;
-        width: 10%;
+        width: 35px;
+        height: 35px;
         
     }
 
-    .conte1{
+    .casilla{
         display: flex;
         flex-direction: column;
         width: 65%;
-        height: 150px;
+        
         background-color: hsl(219, 30%, 18%);
         padding: 10px 30px ;
-
         
+        /* font-size: 10px; */
         
     }
     
-    /* .perfil{
-        display: grid;
-        grid-template-columns: 10fr 30fr;
-        
-    }
-    .profile{
+    .perfil{
         display: flex;
-        flex-direction: column;
-        margin-left: -30px;
-        margin-top: -20px;
-        
-    } */
-
-    /* .profile p{
-        margin-bottom: 0;
-        font-size: 15px;
-    } */
-
-    .conte2{
-        width: 65%;
-        height: 150px;
-        background-color: hsl(219, 30%, 18%);
-        padding: 10px 20px;
-        
-        margin-left: -25%;
-        
+        align-items: center;
     }
 
-    .conte3{
-        width: 65%;
-        height: 150px;
-        background-color: hsl(219, 30%, 18%);
-        padding: 10px 20px;
-        
-        margin-left: -55%;
-        
-    }
+    
 
+    
     .cajaGet{
         display: flex;
         flex-direction: column;
@@ -242,9 +218,12 @@ body{
         color: white;
 
         /* Segun para poner lo encima de otro*/
-        position: relative;
-        z-index: 1; 
+        position: absolute;
+        z-index: 2; 
+        left: 50%;
+        transform: translateX(-50%) translateY(-37.5%);
         
+
     }
 
     .textcaja p{
