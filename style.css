@@ -241,9 +241,60 @@ body{
 
     footer{
         
-        background-color: burlywood;
-        display: grid;
-      grid-template-columns: 51fr 15fr 15fr 15fr 15fr;
+        background-color: hsl(216, 53%, 9%);        
+        color: white;
+        padding-top: 10%;
+        padding-left: 5%;
         
     }
 
+    .foot{
+        display: grid;
+        grid-template-columns: 20fr 25fr 10fr 10fr 15fr;
+        margin-top: 10px;
+        margin-left: 1%;
+        margin-bottom: 50px;
+    }
+
+    .ubica{
+        display: grid;
+        grid-template-columns: 1fr 6fr;
+        
+    }
+
+    .ubica img{
+        margin-top: 20px;
+    }
+
+    .contac{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30%;
+        
+        
+    }
+
+    .about{
+     margin-left: 30px;
+     
+    }
+    .about ul{
+        list-style-type: none; /* Elimina las viñetas de la lista */
+    }
+
+    .contac2{
+        margin-left: 5%;
+        
+    }
+    .contac2 ul{
+        list-style-type: none; /* Elimina las viñetas de la lista */
+    }
+
+    .iconosredes{
+        display: grid;
+        grid-template-columns: 35fr 35fr 35fr;
+
+        height: 50%;
+        width: 50%;
+        margin-left: 30px;
+    }
