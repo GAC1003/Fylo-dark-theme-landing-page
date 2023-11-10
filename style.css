@@ -242,5 +242,8 @@ body{
     footer{
         
         background-color: burlywood;
+        display: grid;
+      grid-template-columns: 51fr 15fr 15fr 15fr 15fr;
+        
     }
 
