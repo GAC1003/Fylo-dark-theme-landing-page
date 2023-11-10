@@ -13,6 +13,7 @@ body{
 .contenido{
     background-color:  hsl(217, 28%, 15%);
     position: relative;
+    overflow: hidden;
     
     }
 
@@ -34,27 +35,17 @@ body{
     .intro{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        position:absolute;
-        z-index: 2;
-       
-
-       
+        align-items: center; 
+             
     }
 
-    .fondo{
-        box-sizing: border-box;
-    }
+    
     .fondito{
         width: 100%;
-         overflow: hidden;       
-        height: 200vh;
+        height: 100vh;
         transform: scale(1.4);
-     
-              
-        
-
-                
+       
+           
          
     }
 
@@ -104,23 +95,26 @@ body{
         margin-left: 50px;
         margin-right: 50px;
         gap:30px;
+        /*background-color: hsl(218, 28%, 13%);*/
     }
 
     .produ1{
-        margin-top: 40px;
+        padding-top: 60px;
         padding-left:90px ;
         padding-right:90px;
         margin-right: 10px;
         text-align: center;
+        z-index: 2;
 
     }
 
     .produ2{
-        margin-top: 40px;
+        padding-top: 60px;
         padding-left:90px ;
         padding-right:90px;
         margin-right: 10px;
         text-align: center;
+        z-index: 2;
 
     }
 
