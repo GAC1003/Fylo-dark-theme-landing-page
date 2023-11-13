@@ -44,6 +44,7 @@ body{
         width: 100vw;
         height: 500px;
         transform: scale(1.2);
+        position: relative;
             
          
     }
@@ -96,7 +97,7 @@ body{
 
 
     .productos{
-        
+        position: absolute;
         color: white;
         display: flex;
         justify-content: center;
@@ -104,12 +105,13 @@ body{
         margin-left: 50px;
         margin-right: 50px;
         gap:30px;
+        top: 1010px;
         /*background-color: hsl(218, 28%, 13%);*/
         
     }
 
     .produ1{
-        padding-top: 60px;
+      
         padding-left:90px ;
         padding-right:90px;
         margin-right: 10px;
@@ -122,6 +124,7 @@ body{
         padding-top: 60px;
         padding-left:90px ;
         padding-right:90px;
+        padding-bottom:50px ;
         margin-right: 10px;
         text-align: center;
         z-index: 2;
@@ -199,6 +202,7 @@ body{
     }
 
     .cajaGet{
+        
         display: flex;
         flex-direction: column;
         width: 60%;
@@ -211,9 +215,9 @@ body{
 
         margin-bottom: 20px;
         color: white;
-        /* Segun para poner lo encima de otro
-        position: relative;
-        z-index: 1; */
+      
+        position: absolute;
+        z-index: 1;
         
     }
 
