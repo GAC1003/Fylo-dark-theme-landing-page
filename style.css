@@ -21,6 +21,10 @@ body{
         color: white;
         background-color: hsl(217, 28%, 15%);
     }
+
+    .navis:hover{
+        text-decoration:underline;
+    }
     
     .intro{
         display: flex;
@@ -62,7 +66,7 @@ body{
     .primbtn{
         z-index: 2;
         color: white;
-        background-color: #4FC4D4;
+        background-image: linear-gradient(to right,hsl(176, 68%, 64%),hsl(198, 60%, 50%));
         border-radius: 15px;
         padding-left: 40px;
         padding-right: 40px;
@@ -70,6 +74,11 @@ body{
         padding-bottom: 10px;
         margin-top: 20px;
     }
+
+    .primbtn:hover{
+        background-color: #2BD1D1;
+        opacity: 90%;
+     }
     
     
     .fondo{
@@ -91,7 +100,8 @@ body{
        justify-content: center;
        text-align: center;
        color: white;
-       margin-top: 0px;   
+       align-items: center;
+         
 
     }
     
@@ -112,6 +122,7 @@ body{
         grid-template-columns: 50fr 50fr;
         color: white;
         padding-top: 10%;
+        padding-bottom: 7%;
         /* font-family: 'Open Sans', sans-serif; */
         align-items: center;
         
@@ -132,17 +143,32 @@ body{
     #link:hover{
         color: white;       
     }
-     
+    
+    .liga:hover{
+        color: white;
+    }
+    
+
+    a{
+        color:aquamarine;
+        text-decoration: none;
+          }
+        
+    
+
     .liga{
         align-items: center;
         display: flex;
         gap: 10px;
+        text-decoration: underline;
+        color:aquamarine;
     }
 
     circle:hover {
         fill: white;
       }
 
+      
     .comentarios{
         background-color: hsl(218, 28%, 13%);
         /* margin-right: 205px;
@@ -158,7 +184,7 @@ body{
         justify-items: center;
         padding-left: 5%;
         margin-top: 5%;
-        margin-bottom: 10%;
+        margin-bottom: 25%;
         
     }
 
@@ -175,19 +201,47 @@ body{
         width: 65%;
         
         background-color: hsl(219, 30%, 18%);
-        padding: 10px 30px ;
+        padding: 15px 30px ;
         
         /* font-size: 10px; */
+        z-index: 2;
         
     }
+    
+    #quote{
+        margin-left: 90px;
+        position: absolute;
+        top: 2265px;
+
+    }
+
+
     
     .perfil{
         display: flex;
         align-items: center;
+        justify-content: flex-start;
+        gap: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        
     }
 
-    
+    .name{
+       margin-top: 0px;
+       margin-bottom: 0px;
 
+
+    }
+
+    .cargo{
+        margin-top: 0px;
+       margin-bottom: 0px;
+       font-size: 11px;
+    }
+   
+    
+   
     
     .cajaGet{
         
@@ -195,7 +249,7 @@ body{
         flex-direction: column;
         width: 60%;
         height: 5%;
-        background-color: blueviolet;
+        
         border-radius: 10px;
         text-align: center;
         padding: 10px 0px 30px 0px ;
@@ -206,16 +260,21 @@ body{
 
         /* Segun para poner lo encima de otro*/
         position: absolute;
-        z-index: 2; 
+        z-index:2; 
         left: 50%;
-        transform: translateX(-50%) translateY(-37.5%);
-        
+        transform: translateX(-50%) translateY(50%);
+    }
+    .textcaja{
+        background-color: hsl(219, 30%, 18%);
+        padding: 0px 20px 25px 20px;
+        position: absolute;
+        bottom:1px;
 
     }
+   
 
     .textcaja p{
         padding: 0px 105px 0px 105px;
-        
     }
 
     .cajaGet input{
@@ -223,26 +282,43 @@ body{
         width: 60%;
         border-radius: 20px;
         margin-right: 20px;  
+        padding-bottom: 10px;
+        padding-top: 10px;
     }
+
 
     .cajaGet button{
         color: white;
         height: 30%;
         width: 20%;
         border-radius: 20px;
-        margin-right: 20px;  
         background-image: linear-gradient(to right,hsl(176, 68%, 64%),hsl(198, 60%, 50%));
         /* &:hover{  
             background-color: hsl(180, 66%, 49%, 0.5) ;
         }   */
     }
 
+    #btndos{
+        width: 160px;
+        padding-top: 10px;
+        padding-bottom:10px;
+        
+    }
+
+
+    #btndos:hover{
+       background-color: #2BD1D1;
+       opacity: 80%;
+    }
+
     footer{
         
         background-color: hsl(216, 53%, 9%);        
         color: white;
-        padding-top: 10%;
+        padding-top: 20%;
         padding-left: 5%;
+        padding-bottom: 5%;
+        position: relative;
         
     }
 
@@ -304,4 +380,13 @@ body{
         height: 50%;
         width: 50%;
         margin-left: 30px;
+        margin-top: 10px;
+        gap:10px;
+       
     }
+
+    .redecita path:hover {
+        fill: aquamarine;
+      }
+
+   
