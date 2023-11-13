@@ -1,141 +1,107 @@
-
 body{
-    display: flex;
-    justify-content: center;
     margin: 0px;
-    
-    
-}
-
-/* hsl(217, 28%, 15%)  hsl(218, 28%, 13%)*/
-
-
-.contenido{
-    background-color:  hsl(217, 28%, 15%);
-    position: relative;
-    overflow: hidden;
-    
+    padding: 0px;
+    background-color: hsl(218, 28%, 13%);
     }
-
+    
     #logo{
         display: inline;
         position: absolute;
-        margin-left: 50px; 
+        padding-left: 50px;
+        padding-top: 40px;
+        background-color: hsl(217, 28%, 15%);
     }
 
     .navi{
         display: flex;
         justify-content: flex-end;
-        gap:20px;
-        margin-right: 50px;;
-        color:white;
-        margin-top: 30px;
+        gap:15px;
+        padding-right: 50px;
+        padding-top: 40px;
+        color: white;
+        background-color: hsl(217, 28%, 15%);
     }
-
+    
     .intro{
         display: flex;
         flex-direction: column;
-        align-items: center; 
-             
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(217, 28%, 15%);
+        padding-bottom:200px;  
     }
-
     
-    .fondito{
-        width: 100vw;
-        height: 500px;
-        transform: scale(1.2);
-        position: relative;
-            
-         
-    }
-
-
-
     .titu{
-        
+        z-index: 2;
         padding-left: 480px;
         padding-right: 480px;
         text-align: center;
         color: white;
-        z-index: 2;
-     
     }
-
+    
     .subti{
+        z-index: 2;
         padding-left: 320px;
         padding-right: 320px;
-        margin-top:0px ;
+        margin-top: 0px;
         margin-bottom: 0px;
         text-align: center;
         color: white;
-        z-index: 2;      
     }
-
+    
     .subti1{
+        z-index: 2;
         padding-left: 500px;
         padding-right: 500px;
-        margin-top:0px ;
-        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-bottom: 10px;
         text-align: center;
         color: white;
-        z-index: 2;      
     }
-
-
-
+    
     .primbtn{
+        z-index: 2;
         color: white;
-        /* background-color:#4FC4D4; */
-        background-image: linear-gradient(to right,hsl(176, 68%, 64%),hsl(198, 60%, 50%));
-        /* &:hover{  
-            background-color: hsl(180, 66%, 49%, 0.5) ;
-        }   */
+        background-color: #4FC4D4;
         border-radius: 15px;
         padding-left: 40px;
         padding-right: 40px;
         padding-top: 10px;
         padding-bottom: 10px;
         margin-top: 20px;
-        z-index: 2;
     }
-
-
+    
+    
+    .fondo{
+       position: absolute;
+       top:640px;
+    }
+    
+    #fondito{
+       width: 100%;
+       height: 400px;
+       transform:scale(1);
+    }
+    
     .productos{
-        position: absolute;
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 50px;
-        margin-right: 50px;
-        gap:30px;
-        top: 1010px;
-        /*background-color: hsl(218, 28%, 13%);*/
-        
-    }
-
-    .produ1{
-      
-        padding-left:90px ;
-        padding-right:90px;
-        margin-right: 10px;
-        text-align: center;
-        z-index: 2;
+       display: grid;
+       gap:70px;
+       column-gap:100px;;
+       grid-template-columns: repeat(2,300px);
+       justify-content: center;
+       text-align: center;
+       color: white;
+       margin-top: 0px;   
 
     }
+    
+    .produ{
+            z-index: 2;
+            
+        }
+    
 
-    .produ2{
-        padding-top: 60px;
-        padding-left:90px ;
-        padding-right:90px;
-        padding-bottom:50px ;
-        margin-right: 10px;
-        text-align: center;
-        z-index: 2;
-
-    }
-
-
+/*Segunda parte*/
 
 
 
@@ -147,6 +113,7 @@ body{
         color: white;
         padding-top: 10%;
         /* font-family: 'Open Sans', sans-serif; */
+        
     }
    
 
@@ -158,10 +125,11 @@ body{
     .contInfo{
         padding: 100px 100px 0px 0px;
         
+        
     }   
 
     .comentarios{
-        background-color: aqua;
+        background-color: hsl(218, 28%, 13%);
         /* margin-right: 205px;
         padding-right: 50px;
          */
@@ -232,6 +200,7 @@ body{
 
     .textcaja p{
         padding: 0px 105px 0px 105px;
+        
     }
 
     .cajaGet input{
