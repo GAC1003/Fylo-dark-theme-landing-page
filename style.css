@@ -85,7 +85,11 @@ body{
 
     .primbtn{
         color: white;
-        background-color:#4FC4D4;
+        /* background-color:#4FC4D4; */
+        background-image: linear-gradient(to right,hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+        /* &:hover{  
+            background-color: hsl(180, 66%, 49%, 0.5) ;
+        }   */
         border-radius: 15px;
         padding-left: 40px;
         padding-right: 40px;
@@ -142,17 +146,27 @@ body{
         grid-template-columns: 50fr 50fr;
         color: white;
         padding-top: 10%;
+        /* font-family: 'Open Sans', sans-serif; */
     }
+   
 
     .stay img{
         padding: 0px 50px 0px 100px ;
         
     }
 
-    .cont1{
+    .contInfo{
         padding: 100px 100px 0px 0px;
         
     }   
+
+    .comentarios{
+        background-color: aqua;
+        /* margin-right: 205px;
+        padding-right: 50px;
+         */
+       
+    }
 
     .cont2{
         display: grid;
@@ -167,40 +181,31 @@ body{
 
     .cont2 img {
         border-radius: 100px;
-        width: 10%;
+        width: 35px;
+        height: 35px;
         
     }
 
-    .conte1{
+    .casilla{
+        display: flex;
+        flex-direction: column;
         width: 65%;
-        height: 150px;
+        
         background-color: hsl(219, 30%, 18%);
         padding: 10px 30px ;
-
         
-        
-    }
-
-    .conte2{
-        width: 65%;
-        height: 150px;
-        background-color: hsl(219, 30%, 18%);
-        padding: 10px 20px;
-        
-        margin-left: -25%;
+        /* font-size: 10px; */
         
     }
-
-    .conte3{
-        width: 65%;
-        height: 150px;
-        background-color: hsl(219, 30%, 18%);
-        padding: 10px 20px;
-        
-        margin-left: -55%;
-        
+    
+    .perfil{
+        display: flex;
+        align-items: center;
     }
 
+    
+
+    
     .cajaGet{
         
         display: flex;
@@ -215,10 +220,14 @@ body{
 
         margin-bottom: 20px;
         color: white;
-      
+
+        /* Segun para poner lo encima de otro*/
         position: absolute;
-        z-index: 1;
+        z-index: 2; 
+        left: 50%;
+        transform: translateX(-50%) translateY(-37.5%);
         
+
     }
 
     .textcaja p{
@@ -233,6 +242,7 @@ body{
     }
 
     .cajaGet button{
+        color: white;
         height: 30%;
         width: 20%;
         border-radius: 20px;
@@ -245,6 +255,69 @@ body{
 
     footer{
         
-        background-color: burlywood;
+        background-color: hsl(216, 53%, 9%);        
+        color: white;
+        padding-top: 10%;
+        padding-left: 5%;
+        
     }
 
+    .foot{
+        display: grid;
+        grid-template-columns: 20fr 25fr 10fr 10fr 15fr;
+        margin-top: 10px;
+        margin-left: 1%;
+        margin-bottom: 50px;
+    }
+
+    .ubica{
+        display: grid;
+        grid-template-columns: 1fr 6fr;
+        
+    }
+
+    .ubica img{
+        margin-top: 20px;
+    }
+
+    .contac{
+        /* display: flex;
+        flex-direction: column;
+        margin-left: 30%; */
+
+        display: grid;
+        grid-template-columns: 0fr 6fr;
+        
+        margin-left: 40%;
+        
+    }
+    
+    .contac img{
+        margin-top: 20px;
+        margin-left: -150%;
+    }
+
+    .about{
+     margin-left: 30px;
+     
+    }
+    .about ul{
+        list-style-type: none; /* Elimina las viñetas de la lista */
+    }
+
+    .contac2{
+        margin-left: 5%;
+        
+    }
+    .contac2 ul{
+        list-style-type: none; /* Elimina las viñetas de la lista */
+    }
+
+    .iconosredes{
+        display: grid;
+        grid-template-columns: 35fr 35fr 35fr;
+
+        height: 50%;
+        width: 50%;
+        margin-left: 30px;
+    }
