@@ -113,6 +113,8 @@ body{
         color: white;
         padding-top: 10%;
         /* font-family: 'Open Sans', sans-serif; */
+        align-items: center;
+        
         
     }
    
@@ -122,11 +124,24 @@ body{
         
     }
 
-    .contInfo{
-        padding: 100px 100px 0px 0px;
-        
-        
+    .contInf{
+        padding-left: 10px;
+        padding-right: 70px;              
     }   
+
+    #link:hover{
+        color: white;       
+    }
+     
+    .liga{
+        align-items: center;
+        display: flex;
+        gap: 10px;
+    }
+
+    circle:hover {
+        fill: white;
+      }
 
     .comentarios{
         background-color: hsl(218, 28%, 13%);
